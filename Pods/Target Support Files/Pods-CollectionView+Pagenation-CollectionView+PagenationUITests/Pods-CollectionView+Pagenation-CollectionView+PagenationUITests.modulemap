@@ -1,0 +1,6 @@
+framework module Pods_CollectionView_Pagenation_CollectionView_PagenationUITests {
+  umbrella header "Pods-CollectionView+Pagenation-CollectionView+PagenationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

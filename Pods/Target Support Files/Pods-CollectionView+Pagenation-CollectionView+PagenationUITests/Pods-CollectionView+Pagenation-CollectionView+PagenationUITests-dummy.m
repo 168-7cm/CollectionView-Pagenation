@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CollectionView_Pagenation_CollectionView_PagenationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CollectionView_Pagenation_CollectionView_PagenationUITests
+@end

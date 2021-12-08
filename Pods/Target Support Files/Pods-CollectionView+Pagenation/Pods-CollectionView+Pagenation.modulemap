@@ -1,0 +1,6 @@
+framework module Pods_CollectionView_Pagenation {
+  umbrella header "Pods-CollectionView+Pagenation-umbrella.h"
+
+  export *
+  module * { export * }
+}
