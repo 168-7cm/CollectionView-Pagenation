@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FooterView" reuseIdentifier="FooterView" id="uKi-UL-8vE" customClass="FooterView" customModule="Bish" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="vQr-SZ-4BN">
+                    <rect key="frame" x="197" y="15" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="WHr-vF-t8k"/>
+            <constraints>
+                <constraint firstItem="vQr-SZ-4BN" firstAttribute="centerX" secondItem="uKi-UL-8vE" secondAttribute="centerX" id="4QL-9n-gyw"/>
+                <constraint firstItem="vQr-SZ-4BN" firstAttribute="centerY" secondItem="uKi-UL-8vE" secondAttribute="centerY" id="Sm8-KQ-PWo"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicator" destination="vQr-SZ-4BN" id="MIE-wO-ocQ"/>
+            </connections>
+            <point key="canvasLocation" x="-95" y="136"/>
+        </collectionReusableView>
+    </objects>
+</document>

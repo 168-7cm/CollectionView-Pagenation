@@ -6,10 +6,11 @@ target 'CollectionView+Pagenation' do
   use_frameworks!
 
   # Pods for CollectionView+Pagenation
-pod 'RxSwift', '6.2.0'
+  pod 'RxSwift', '6.2.0'
   pod 'RxCocoa', '6.2.0'
   pod "RxGesture"
   pod 'RxDataSources', '~> 5.0'
+  pod 'SwiftGen', '~> 6.0'
 
   target 'CollectionView+PagenationTests' do
     inherit! :search_paths
